@@ -12,7 +12,7 @@ const Farmers = () => {
   return (
     <Layout>
       <PageBanner pageName={"Тресет"} />
-      <section className="farmers-team_page pt-170">
+      <section className="farmers-team_page pt-170 pb-130">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-10">
@@ -31,10 +31,32 @@ const Farmers = () => {
                 <div className="member-info">
                   <h3 className="title">
                     <Link href="/portfolio-details">
-                      <a>Биг Бале</a>
+                      <a>Dennis P. Russell</a>
                     </Link>
                   </h3>
-                  <p className="position">Тресет</p>
+                  <p className="position">Food Farmers</p>
+                  <ul className="social-link">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-youtube" />
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -46,10 +68,32 @@ const Farmers = () => {
                 <div className="member-info">
                   <h3 className="title">
                     <Link href="/farmers">
-                      <a>Професионален тресет 250л</a>
+                      <a>David M. Hower</a>
                     </Link>
                   </h3>
-                  <p className="position">Тресет</p>
+                  <p className="position">General Manager</p>
+                  <ul className="social-link">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-youtube" />
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -61,10 +105,32 @@ const Farmers = () => {
                 <div className="member-info">
                   <h3 className="title">
                     <Link href="/farmers">
-                      <a>Професионален тресет 70л</a>
+                      <a>Richard M. Howell</a>
                     </Link>
                   </h3>
-                  <p className="position">Тресет</p>
+                  <p className="position">Food Farmers</p>
+                  <ul className="social-link">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-youtube" />
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -76,10 +142,32 @@ const Farmers = () => {
                 <div className="member-info">
                   <h3 className="title">
                     <Link href="/farmers">
-                      <a>Универзален тресет 10л</a>
+                      <a>Keneth R. Williams</a>
                     </Link>
                   </h3>
-                  <p className="position">Тресет</p>
+                  <p className="position"> Food Farmers</p>
+                  <ul className="social-link">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-youtube" />
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -91,10 +179,32 @@ const Farmers = () => {
                 <div className="member-info">
                   <h3 className="title">
                     <Link href="/farmers">
-                      <a>Универзален тресет 20л</a>
+                      <a>John T. Spaulding</a>
                     </Link>
                   </h3>
-                  <p className="position">Тресет</p>
+                  <p className="position">Food Farmers</p>
+                  <ul className="social-link">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-youtube" />
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -105,14 +215,106 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/farmers">Универзален тресет 45л</Link>
+                    <Link href="/farmers">Jeffery S. Sheridan</Link>
                   </h3>
-                  <p className="position">Тресет</p>
+                  <p className="position">General Manager</p>
+                  <ul className="social-link">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-youtube" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div className="team-member_one text-center mb-60 wow fadeInDown">
+                <div className="member-img">
+                  <img src="assets/images/team/img-7.jpg" alt="" />
+                </div>
+                <div className="member-info">
+                  <h3 className="title">
+                    <Link href="/farmers">Christy J. Floyd</Link>
+                  </h3>
+                  <p className="position">Food Farmers</p>
+                  <ul className="social-link">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-youtube" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div className="team-member_one text-center mb-60 wow fadeInUp">
+                <div className="member-img">
+                  <img src="assets/images/team/img-8.jpg" alt="" />
+                </div>
+                <div className="member-info">
+                  <h3 className="title">
+                    <Link href="/farmers">Rosa C. Coleman</Link>
+                  </h3>
+                  <p className="position">Food Farmers</p>
+                  <ul className="social-link">
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-linkedin" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i className="fab fa-youtube" />
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-          {/* <div className="row">
+          <div className="row">
             <div className="col-lg-12">
               <div className="button-box text-center wow fadeInDown">
                 <Link href="/farmers">
@@ -122,12 +324,12 @@ const Farmers = () => {
                 </Link>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </section>
       {/*====== End Farmers Section ======*/}
-     {/*====== Start Skill Section ======*/}
-     <section className="skill-section  pt-lg-130 pb-130">
+      {/*====== Start Skill Section ======*/}
+      <section className="skill-section pt-lg-130">
         <div className="container-fluid">
           <div
             className="skill-wrapper-one pb-90 bg_cover"
@@ -144,9 +346,38 @@ const Farmers = () => {
                       <i className="fas fa-play" />
                     </a>
                     <h2>Watch Latest Videos</h2>
+                    <div className="row">
+                      <div className="col-lg-6">
+                        <div className="single-counter-card mb-40 text-left">
+                          <div className="icon">
+                            <i className="flaticon-agriculture-2" />
+                          </div>
+                          <div className="text">
+                            <h2 className="number">
+                              <Counter end={3652} />+
+                            </h2>
+                            <p>Saticfied Clients</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="single-counter-card mb-40 text-left">
+                          <div className="icon">
+                            <i className="flaticon-industry" />
+                          </div>
+                          <div className="text">
+                            <h2 className="number">
+                              <Counter end={9634} />
+                              6+
+                            </h2>
+                            <p>Saticfied Clients</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="col-lg-7 mt-50">
+                <div className="col-lg-7">
                   <div className="skill-one_content-box content-box-gap mb-40 wow fadeInRight">
                     <div className="section-title section-title-left mb-30">
                       <span className="sub-title">Experience</span>
@@ -195,6 +426,134 @@ const Farmers = () => {
         </div>
       </section>
       {/*====== End Skill Section ======*/}
+      {/*====== Start Testimonial Section ======*/}
+      <section className="testimonial-four pt-130 pb-65">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-7 col-lg-10">
+              <div className="section-title text-center mb-60 wow fadeInUp">
+                <span className="sub-title">Clients Feedback</span>
+                <h2>What’s Our Clients Say About Our Organic Foods</h2>
+              </div>
+            </div>
+          </div>
+          <Slider
+            {...testimonialSliderThree}
+            className="testimonial-slider-three"
+          >
+            <div className="testimonial-item text-center wow fadeInDown">
+              <div className="author-thumb">
+                <img
+                  src="assets/images/testimonial/img-1.jpg"
+                  alt="author Image"
+                />
+              </div>
+              <div className="testimonial-content">
+                <p>
+                  “Sit amet consectetu escing elit sed do eiusmod tempor
+                  incididunt ut labore dolore magna aliqua. Quis ipsum
+                  suspendisse ultrices gravic darisus comoe”{" "}
+                </p>
+                <div className="quote">
+                  <i className="fas fa-quote-right" />
+                </div>
+                <div className="author-title">
+                  <h4>Michael R. Jordan</h4>
+                  <p className="position">CEO &amp; Founder</p>
+                </div>
+              </div>
+            </div>
+            <div className="testimonial-item text-center wow fadeInUp">
+              <div className="author-thumb">
+                <img
+                  src="assets/images/testimonial/img-2.jpg"
+                  alt="author Image"
+                />
+              </div>
+              <div className="testimonial-content">
+                <p>
+                  “Sit amet consectetu escing elit sed do eiusmod tempor
+                  incididunt ut labore dolore magna aliqua. Quis ipsum
+                  suspendisse ultrices gravic darisus comoe”{" "}
+                </p>
+                <div className="quote">
+                  <i className="fas fa-quote-right" />
+                </div>
+                <div className="author-title">
+                  <h4>Nathan A. Caswell</h4>
+                  <p className="position">Senior Manager</p>
+                </div>
+              </div>
+            </div>
+            <div className="testimonial-item text-center wow fadeInDown">
+              <div className="author-thumb">
+                <img
+                  src="assets/images/testimonial/img-3.jpg"
+                  alt="author Image"
+                />
+              </div>
+              <div className="testimonial-content">
+                <p>
+                  “Sit amet consectetu escing elit sed do eiusmod tempor
+                  incididunt ut labore dolore magna aliqua. Quis ipsum
+                  suspendisse ultrices gravic darisus comoe”{" "}
+                </p>
+                <div className="quote">
+                  <i className="fas fa-quote-right" />
+                </div>
+                <div className="author-title">
+                  <h4>Somalia D. Silva</h4>
+                  <p className="position">Business Manager</p>
+                </div>
+              </div>
+            </div>
+            <div className="testimonial-item text-center wow fadeInUp">
+              <div className="author-thumb">
+                <img
+                  src="assets/images/testimonial/img-4.jpg"
+                  alt="author Image"
+                />
+              </div>
+              <div className="testimonial-content">
+                <p>
+                  “Sit amet consectetu escing elit sed do eiusmod tempor
+                  incididunt ut labore dolore magna aliqua. Quis ipsum
+                  suspendisse ultrices gravic darisus comoe”{" "}
+                </p>
+                <div className="quote">
+                  <i className="fas fa-quote-right" />
+                </div>
+                <div className="author-title">
+                  <h4>Michael D. Slaughter</h4>
+                  <p className="position">Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div className="testimonial-item text-center wow fadeInDown">
+              <div className="author-thumb">
+                <img
+                  src="assets/images/testimonial/img-2.jpg"
+                  alt="author Image"
+                />
+              </div>
+              <div className="testimonial-content">
+                <p>
+                  “Sit amet consectetu escing elit sed do eiusmod tempor
+                  incididunt ut labore dolore magna aliqua. Quis ipsum
+                  suspendisse ultrices gravic darisus comoe”{" "}
+                </p>
+                <div className="quote">
+                  <i className="fas fa-quote-right" />
+                </div>
+                <div className="author-title">
+                  <h4>Nathan A. Caswell</h4>
+                  <p className="position">Senior Manager</p>
+                </div>
+              </div>
+            </div>
+          </Slider>
+        </div>
+      </section>
     </Layout>
   );
 };

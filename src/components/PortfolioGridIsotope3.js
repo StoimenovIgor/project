@@ -100,7 +100,7 @@ const PortfolioGridIsotope3 = () => {
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-6 cat-1">
           <div className="project-item-three mb-30 wow fadeInDown">
             <div className="img-holder">
-              <img src="assets/images/portfolio/img-9.jpg" alt="" />
+              <img src="assets/images/gjubrivo/organskoGjubrivo.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
                   <Link href="/portfolio-details">
@@ -123,7 +123,8 @@ const PortfolioGridIsotope3 = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-3 cat-6">
+        
+        {/* <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-3 cat-6">
           <div className="project-item-three mb-30 wow fadeInUp">
             <div className="img-holder">
               <img src="assets/images/portfolio/img-10.jpg" alt="" />
@@ -141,16 +142,13 @@ const PortfolioGridIsotope3 = () => {
                       <a>{t('CrystalFertilizers')}</a>
                     </Link>
                   </h3>
-                  <p>
-                    {/* <a href="#">Agriculture</a>,<a href="#">Foods</a> */}
-                  </p>
+                 
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        
-      </div>
+        </div> */}
+     </div>
     </Fragment>
   );
 };

@@ -652,7 +652,7 @@ const DefaultHeader = () => (
 );
 
 const Menu = () => (
-  <nav className="main-menu d-none d-xl-block ml-90">
+  <nav className="main-menu d-none d-xl-block">
     <ul>
       {/* <li className="menu-item has-children">
         <a href="#" className="active">
@@ -668,7 +668,11 @@ const Menu = () => (
           <li>
             <Link href="treva">{t('Grass')}</Link>
           </li>
+          {/* <li>
+            <Link href="portfolio-full-width">Portfolio Full Width</Link>
+          </li> */}
           <li>
+         
             <Link href="semenskiKompir">{t('SeedPotato')}</Link>
           </li>
           <li>
@@ -735,7 +739,7 @@ const Menu = () => (
           </li>
         </ul>
       </li>
-      <li className="menu-item">
+      <li className="menu-item has-children">
         <a href="programi-za-zastita">{t('PPG')}</a>
         <ul className="sub-menu">
           <li>

@@ -1,10 +1,8 @@
 import Link from "next/link";
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
 
 const MobileHeader = () => {
-  const { t } = useTranslation();
-   const [activeMenu, setActiveMenu] = useState("");
+  const [activeMenu, setActiveMenu] = useState("");
   const activeMenuSet = (value) =>
       setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
@@ -13,48 +11,38 @@ const MobileHeader = () => {
     <nav className="main-menu d-block d-xl-none">
       <ul>
         <li className="menu-item has-children">
-          <a href="farmers" className="active">
-          {t('seeds')}
+          <a href="#" className="active">
+            Home
           </a>
           <ul className="sub-menu" style={activeLi("home")}>
             <li>
-             <Link href="hibridniSeminja">{t('HybridSeeds')}</Link>
+              <Link href="/">Home Agriculture</Link>
             </li>
             <li>
-            <Link href="treva">{t('Grass')}</Link>
+              <Link href="/index-2">Home Organic Food</Link>
             </li>
             <li>
-            <Link href="arpadjik">{t('Arpadzhik')}</Link>
+              <Link href="/index-3">Home Farming</Link>
             </li>
             <li>
-            <Link href="pcenka">{t('Corn')}</Link>
-            </li>
-            <li>
-            <Link href="lucerka">{t('Lucerka')}</Link>
+              <Link href="/index-4">Home Dairy Farm</Link>
             </li>
           </ul>
           <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
             <i className="far fa-angle-down" />
           </span>
         </li>
-        
+        <li>
+          <Link href="/about">About</Link>
+        </li>
         <li className="menu-item has-children">
-        <a href="pesticidi">{t('pesticides')}</a>
+          <a href="#">Services</a>
           <ul className="sub-menu" style={activeLi("Services")}>
             <li>
-            <Link href="fungicidi">{t('Fungicides')}</Link>
+              <Link href="/services">Our Services</Link>
             </li>
             <li>
-            <Link href="insekticidi">{t('Insecticides')}</Link>
-            </li>
-            <li>
-            <Link href="akaricidi">{t('Acaricides')}</Link>
-            </li>
-            <li>
-            <Link href="herbicidi">{t('Herbicides')}</Link>
-            </li>
-            <li>
-            <Link href="nematocidi">{t('Nematodes')}</Link>
+              <Link href="/service-details">Service Details</Link>
             </li>
           </ul>
           <span
@@ -65,13 +53,16 @@ const MobileHeader = () => {
           </span>
         </li>
         <li className="menu-item has-children">
-        <a href="gjubrivo">{t('fertilizer')}</a>
+          <a href="#">Portfolio</a>
           <ul className="sub-menu" style={activeLi("Portfolio")}>
             <li>
-            <Link href="organskiGjubriva">{t('OrganicFertilizers')}</Link>
+              <Link href="portfolio-grid">Portfolio Grid</Link>
             </li>
             <li>
-            <Link href="kristalniGjubriva">{t('CrystalFertilizers')}</Link>
+              <Link href="portfolio-full-width">Portfolio Full Width</Link>
+            </li>
+            <li>
+              <Link href="portfolio-details">Portfolio Details</Link>
             </li>
           </ul>
           <span
@@ -82,22 +73,25 @@ const MobileHeader = () => {
           </span>
         </li>
         <li className="menu-item has-children">
-        <a href="repro">{t('repro')}</a>
+          <a href="#">Shop</a>
           <ul className="sub-menu" style={activeLi("Shop")}>
             <li>
-            <Link href="treset">{t('Peat')}</Link>
+              <Link href="products">Our Products</Link>
             </li>
             <li>
-            <Link href="folija">{t('Foil')}</Link>
+              <Link href="products-left-sidebar">Product Left Sidebar</Link>
             </li>
             <li>
-            <Link href="vrekji">{t('PPBags')}</Link>
+              <Link href="products-right-sidebar">Product Right Sidebar</Link>
             </li>
             <li>
-            <Link href="filc">{t('Felt')}</Link>
+              <Link href="product-details">Product Details</Link>
             </li>
             <li>
-            <Link href="crnaFolija">{t('BlackFoil')}</Link>
+              <Link href="cart">Cart</Link>
+            </li>
+            <li>
+              <Link href="checkout">Checkout</Link>
             </li>
           </ul>
           <span className="dd-trigger" onClick={() => activeMenuSet("Shop")}>
@@ -105,45 +99,35 @@ const MobileHeader = () => {
           </span>
         </li>
         <li className="menu-item has-children">
-        <a href="programi-za-zastita">{t('PPG')}</a>
+          <a href="#">Blog</a>
           <ul className="sub-menu" style={activeLi("Blog")}>
             <li>
-            <Link href="vinovaLoza">{t('Vineyard')}</Link>
+              <Link href="blog-standard">Blog Standard</Link>
             </li>
             <li>
-            <Link href="jabolcestoOvosje">{t('AppleFruits')}</Link>
-            </li>
-            <li>
-            <Link href="koskestoOvosje">{t('FruitStone')}</Link>
-            </li>
-            <li>
-            <Link href="jagodestoOvosje">{t('StrawberryFruits')}</Link>
-            </li>
-            <li>
-            <Link href="kompir">{t('NutsFruits')}</Link>
-            </li>
-            <li>
-            <Link href="gradinarskiKulturi">{t('GardenCorps')}</Link>
-            </li>
-            <li>
-            <Link href="morkov">{t('Carrots')}</Link>
-            </li>
-            <li>
-            <Link href="zitarici">{t('Cereals')}</Link>
-            </li>
-            <li>
-            <Link href="pcenka">{t('Corn')}</Link>
-            </li>
-            <li>
-            <Link href="tutun">{t('Tobacco')}</Link>
+              <Link href="blog-details">Blog Details</Link>
             </li>
           </ul>
           <span className="dd-trigger" onClick={() => activeMenuSet("Blog")}>
             <i className="far fa-angle-down" />
           </span>
         </li>
-        <li>
-          <Link href="/about">За Нас</Link>
+        <li className="menu-item has-children">
+          <a href="#">Pages</a>
+          <ul className="sub-menu" style={activeLi("Pages")}>
+            <li>
+              <Link href="farmers">Our Farmers</Link>
+            </li>
+            <li>
+              <Link href="faqs">Faq</Link>
+            </li>
+            <li>
+              <Link href="contact">Contact</Link>
+            </li>
+          </ul>
+          <span className="dd-trigger" onClick={() => activeMenuSet("Pages")}>
+            <i className="far fa-angle-down" />
+          </span>
         </li>
       </ul>
     </nav>

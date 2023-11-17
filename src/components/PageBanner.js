@@ -1,14 +1,16 @@
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const PageBanner = ({ pageName, pageTitle }) => {
+  const { t } = useTranslation();
   return (
     <section
       className="page-banner bg_cover position-relative z-1"
       style={{ backgroundImage: "url(assets/images/bg/page-bg-1.jpg)" }}
     >
-      <div className="brand-card text-center">
-        <img src="assets/images/icon/wheat.png" alt="icon" />
-        <h3>Orgarium</h3>
+      <div className="brand-card   text-center">
+        <img src="assets/images/icon/bannerLogo.jpg" alt="icon" />
+        <h3>{t('agrohemija')}</h3>
       </div>
       <div className="container">
         <div className="row">
@@ -17,7 +19,7 @@ const PageBanner = ({ pageName, pageTitle }) => {
               <h1>{pageTitle ? pageTitle : pageName}</h1>
               <ul className="breadcrumbs-link">
                 <li>
-                  <Link href="/">Home</Link>
+                  <Link href="/">{t('home')}</Link>
                 </li>
                 <li className="active">{pageName}</li>
               </ul>

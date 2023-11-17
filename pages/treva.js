@@ -11,7 +11,7 @@ const Counter = dynamic(() => import("../src/components/Counter"), {
 const Farmers = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Трева"} />
+      <PageBanner pageName={"Farmers"} />
       <section className="farmers-team_page pt-170 pb-130">
         <div className="container">
           <div className="row justify-content-center">
@@ -29,7 +29,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/dryAndStrong1">
+                    <Link href="/portfolio-details">
                       <a>Dry and Strong 1kg</a>
                     </Link>
                   </h3>
@@ -44,7 +44,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/dryAndStrong5">Dry and Strong 5kg</Link>
+                    <Link href="/farmers">Dry and Strong 5kg</Link>
                   </h3>
                   <p className="position">Трева</p>
                 </div>
@@ -57,7 +57,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/shadowAndSun1">
+                    <Link href="/portfolio-details">
                       <a>Shadow and Sun 1kg</a>
                     </Link>
                   </h3>
@@ -72,7 +72,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/shadowAndSun5">Shadow and Sun 5kg</Link>
+                    <Link href="/farmers">Shadow and Sun 5kg</Link>
                   </h3>
                   <p className="position">Трева</p>
                 </div>
@@ -85,7 +85,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/wonderlawn05">
+                    <Link href="/portfolio-details">
                       <a>WONDERLAWN 0.5kg</a>
                     </Link>
                   </h3>
@@ -100,7 +100,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/wonderlawn25">Wonderlawn 25kg</Link>
+                    <Link href="/farmers">Wonderlawn 25kg</Link>
                   </h3>
                   <p className="position">Трева</p>
                 </div>
@@ -113,7 +113,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/wonderlawn5">
+                    <Link href="/portfolio-details">
                       <a>Wonderlawn 5kg</a>
                     </Link>
                   </h3>
@@ -128,7 +128,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/barChampion">Bar Champion</Link>
+                    <Link href="/farmers">Bar Champion</Link>
                   </h3>
                   <p className="position">Трева</p>
                 </div>
@@ -141,7 +141,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/rprSport">
+                    <Link href="/portfolio-details">
                       <a>RPR Sport</a>
                     </Link>
                   </h3>
@@ -156,7 +156,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/barAllBent">Bar All Bent</Link>
+                    <Link href="/farmers">Bar All Bent</Link>
                   </h3>
                   <p className="position">Трева</p>
                 </div>
@@ -169,7 +169,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/barAirport">Bar Airport</Link>
+                    <Link href="/farmers">Bar Airport</Link>
                   </h3>
                   <p className="position">Трева</p>
                 </div>
@@ -182,7 +182,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/barRoadside">Bar Roadside</Link>
+                    <Link href="/farmers">Bar Roadside</Link>
                   </h3>
                   <p className="position">Трева</p>
                 </div>
@@ -195,7 +195,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/horseMaster">Horse Master</Link>
+                    <Link href="/farmers">Horse Master</Link>
                   </h3>
                   <p className="position">Трева</p>
                 </div>
@@ -208,7 +208,7 @@ const Farmers = () => {
                 </div>
                 <div className="member-info">
                   <h3 className="title">
-                    <Link href="/horseMasterHay">Horse Master Hay</Link>
+                    <Link href="/farmers">Horse Master Hay</Link>
                   </h3>
                   <p className="position">Трева</p>
                 </div>
@@ -217,20 +217,20 @@ const Farmers = () => {
           </div>
           <div className="row">
             <div className="col-lg-12">
-              {/* <div className="button-box text-center wow fadeInDown">
+              <div className="button-box text-center wow fadeInDown">
                 <Link href="/farmers">
                   <a className="main-btn bordered-btn bordered-yellow">
                     Become a Member
                   </a>
                 </Link>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
       </section>
       {/*====== End Farmers Section ======*/}
       {/*====== Start Skill Section ======*/}
-      <section className="skill-section   pb-130">
+      <section className="skill-section pt-lg-130">
         <div className="container-fluid">
           <div
             className="skill-wrapper-one pb-90 bg_cover"
@@ -247,9 +247,38 @@ const Farmers = () => {
                       <i className="fas fa-play" />
                     </a>
                     <h2>Watch Latest Videos</h2>
+                    <div className="row">
+                      <div className="col-lg-6">
+                        <div className="single-counter-card mb-40 text-left">
+                          <div className="icon">
+                            <i className="flaticon-agriculture-2" />
+                          </div>
+                          <div className="text">
+                            <h2 className="number">
+                              <Counter end={3652} />+
+                            </h2>
+                            <p>Saticfied Clients</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="single-counter-card mb-40 text-left">
+                          <div className="icon">
+                            <i className="flaticon-industry" />
+                          </div>
+                          <div className="text">
+                            <h2 className="number">
+                              <Counter end={9634} />
+                              6+
+                            </h2>
+                            <p>Saticfied Clients</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="col-lg-7 mt-50">
+                <div className="col-lg-7">
                   <div className="skill-one_content-box content-box-gap mb-40 wow fadeInRight">
                     <div className="section-title section-title-left mb-30">
                       <span className="sub-title">Experience</span>
@@ -298,7 +327,7 @@ const Farmers = () => {
         </div>
       </section>
       {/*====== End Skill Section ======*/}
-      {/* ====== Start Testimonial Section ======
+      {/*====== Start Testimonial Section ======*/}
       <section className="testimonial-four pt-130 pb-65">
         <div className="container">
           <div className="row justify-content-center">
@@ -425,7 +454,7 @@ const Farmers = () => {
             </div>
           </Slider>
         </div>
-      </section> */}
+      </section>
     </Layout>
   );
 };
