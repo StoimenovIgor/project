@@ -100,7 +100,7 @@ const PortfolioGridIsotope2 = () => {
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-1">
           <div className="project-item-three mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/portfolio/img-4.jpg" alt="" />
+              <img src="assets/images/pesticidi/фунгициди-2.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
                   <Link href="/hibridiSeminja">
@@ -126,7 +126,7 @@ const PortfolioGridIsotope2 = () => {
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-2">
           <div className="project-item-three mb-30 wow fadeInDown">
             <div className="img-holder">
-              <img src="assets/images/portfolio/img-5.jpg" alt="" />
+              <img src="assets/images/pesticidi/инсектициди-3.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
                   <Link href="/portfolio-details">
@@ -152,7 +152,7 @@ const PortfolioGridIsotope2 = () => {
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-3">
           <div className="project-item-three mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/portfolio/img-6.jpg" alt="" />
+              <img src="assets/images/pesticidi/акарициди-1.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
                   <Link href="/portfolio-details">
@@ -178,7 +178,7 @@ const PortfolioGridIsotope2 = () => {
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-4">
           <div className="project-item-three mb-30 wow fadeInDown">
             <div className="img-holder">
-              <img src="assets/images/portfolio/img-7.jpg" alt="" />
+              <img src="assets/images/pesticidi/хербициди-2.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
                   <Link href="/portfolio-details">
@@ -204,7 +204,7 @@ const PortfolioGridIsotope2 = () => {
         <div className="col-lg-4 col-md-6 col-sm-12 project-column cat-5">
           <div className="project-item-three mb-30 wow fadeInUp">
             <div className="img-holder">
-              <img src="assets/images/portfolio/img-8.jpg" alt="" />
+              <img src="assets/images/pesticidi/нематоциди-1.jpg" alt="" />
               <div className="hover-portfolio">
                 <div className="icon-btn">
                   <Link href="/portfolio-details">

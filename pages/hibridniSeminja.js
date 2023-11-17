@@ -11,13 +11,13 @@ const Counter = dynamic(() => import("../src/components/Counter"), {
 const Farmers = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Хибридни Семиња"} />
-      <section className="farmers-team_page pt-170">
+      <PageBanner pageName={"Зелка"} />
+      <section className="farmers-team_page pt-170 pb-130">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-10">
               <div className="section-title text-center mb-50 wow fadeInUp">
-                <h2>ХИБРИДНИ СЕМИЊА</h2>
+                <h2>ЗЕЛКА</h2>
               </div>
             </div>
           </div>
@@ -37,196 +37,23 @@ const Farmers = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/img-2.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/karfiol">
-                      <a>Карфиол</a>
-                    </Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInDown">
-                <div className="member-img">
-                  <img src="assets/images/team/img-3.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/farmers">
-                      <a>Краставиа Долга</a>
-                    </Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                </div>
-              </div>
-            </div> */}
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/img-8.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/brokula">Брокула</Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/img-4.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/kromid">
-                      <a>Кромид</a>
-                    </Link>
-                  </h3>
-                  <p className="position"> Хибридни Семиња</p>
-                </div>
-              </div>
-            </div>
-            {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInDown">
-                <div className="member-img">
-                  <img src="assets/images/team/img-5.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/farmers">
-                      <a>Корнишони</a>
-                    </Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                  
-                </div>
-              </div>
-            </div> */}
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/img-6.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/domati">Домати</Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-            
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInDown">
-                <div className="member-img">
-                  <img src="assets/images/team/img-7.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/piperka">Пиперка</Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                  
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/img-8.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/modarPatlidzan">Модар Патлиџан</Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/img-8.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/tikvica">Тиквица</Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/img-8.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/morkov">Морков</Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/img-8.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/grashok">Грашок</Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/img-8.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/dinja">Диња</Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-              <div className="team-member_one text-center mb-60 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/img-8.jpg" alt="" />
-                </div>
-                <div className="member-info">
-                  <h3 className="title">
-                    <Link href="/spanakj">Спанаќ</Link>
-                  </h3>
-                  <p className="position">Хибридни Семиња</p>
-                </div>
-              </div>
-            </div>
           </div>
           <div className="row">
             <div className="col-lg-12">
+              {/* <div className="button-box text-center wow fadeInDown">
+                <Link href="/farmers">
+                  <a className="main-btn bordered-btn bordered-yellow">
+                    Become a Member
+                  </a>
+                </Link>
+              </div> */}
             </div>
           </div>
         </div>
       </section>
       {/*====== End Farmers Section ======*/}
       {/*====== Start Skill Section ======*/}
-      <section className="skill-section  pt-lg-130 pb-130">
+      <section className="skill-section pt-lg-130">
         <div className="container-fluid">
           <div
             className="skill-wrapper-one pb-90 bg_cover"
@@ -243,9 +70,38 @@ const Farmers = () => {
                       <i className="fas fa-play" />
                     </a>
                     <h2>Watch Latest Videos</h2>
+                    <div className="row">
+                      <div className="col-lg-6">
+                        <div className="single-counter-card mb-40 text-left">
+                          <div className="icon">
+                            <i className="flaticon-agriculture-2" />
+                          </div>
+                          <div className="text">
+                            <h2 className="number">
+                              <Counter end={3652} />+
+                            </h2>
+                            <p>Saticfied Clients</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="single-counter-card mb-40 text-left">
+                          <div className="icon">
+                            <i className="flaticon-industry" />
+                          </div>
+                          <div className="text">
+                            <h2 className="number">
+                              <Counter end={9634} />
+                              6+
+                            </h2>
+                            <p>Saticfied Clients</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="col-lg-7 mt-50">
+                <div className="col-lg-7">
                   <div className="skill-one_content-box content-box-gap mb-40 wow fadeInRight">
                     <div className="section-title section-title-left mb-30">
                       <span className="sub-title">Experience</span>
@@ -295,7 +151,7 @@ const Farmers = () => {
       </section>
       {/*====== End Skill Section ======*/}
       {/*====== Start Testimonial Section ======*/}
-      {/* <section className="testimonial-four pt-130 pb-65">
+      <section className="testimonial-four pt-130 pb-65">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-10">
@@ -421,7 +277,7 @@ const Farmers = () => {
             </div>
           </Slider>
         </div>
-      </section> */}
+      </section>
     </Layout>
   );
 };
